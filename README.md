@@ -22,15 +22,15 @@ The solution result (.gds) can be checked using layout editors (e.g., klayout). 
 The SER Result Obtained by NYCU CS EDA Lab’s PCB Router
     
     
-| Benchmark | #Nets | #Available / Used Layers | #Utilized vias |
-| --------- | ---------------------------- | ------------------------ | -------------- |
-| b01       | 24                  | 2 / 2                    | 10             |
-| b02       | 44                  | 3 / 3                    | 52             |
-| b03       | 44                  | 3 / 3                    | 50             |
-| b04       | 140                | 4 / 4                    | 126            |
-| b05       | 261               | 7 / 6                    | 180            |
-| b06       | 165                | 7 / 6                    | 202            |
-| b07       | 69                  | 5 / 5                    | 80             |
+| Benchmark | #Nets | #Available / Used Layers | #Utilized vias | #differential pair | 
+| --------- | ---------------------------- | ------------------------ | -------------- |-------------- |
+| b01       | 24                  | 2 / 2                    | 10             | 2 |
+| b02       | 44                  | 3 / 3                    | 52             | 4 |
+| b03       | 44                  | 3 / 3                    | 50             | 4 |
+| b04       | 140                 | 4 / 4                    | 126            | 8 |
+| b05       | 261                 | 7 / 6                    | 180            | 9 |
+| b06       | 165                 | 7 / 6                    | 202            | 9 |
+| b07       | 69                  | 5 / 5                    | 80             | 6 |
     
 The results may differ slightly from those in [1] because the SAT solver can produce different results for the same problem.
 
