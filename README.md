@@ -11,6 +11,8 @@ Format: <Layer name> <Layer id>
 #Only Top, Bottom, and Signal layers are able to be utilized for PCB routing.
 3.	<case>.<Layer name>.obs: The file used to list the routing obstacles of <case>.
 Format: ( x1 y1 x2 y2 x3 y3….)
+4.	<case>.diff: The file used to list the differential pair of <case>.
+Format: <net1 name> <net2 name> 
     
 ## Experiments
 The solution result (.gds) can be checked using layout editors (e.g., klayout). The result includes the wires from SER and area routing, crossing-free edges, and fan-out candidates. The figure below shows the result of the b05 design (layer S5).
